@@ -1,0 +1,686 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    --text-color: rgba(134, 67, 220, 1);
+    --second-text-color: rgba(37, 32, 47, 1);
+    --text-family: "Red Hat Display", sans-serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-left: 165px;
+    margin-top: 65px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+    margin-top: 72px;
+}
+
+.nav-list span {
+    font-family: var(--text-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26.46px;
+}
+
+.adam_zakob_image {
+    width: 535px;
+    height: 622px;
+    margin-left: 21px;
+}
+
+.menu-list {
+    margin-left: 7px;
+    margin-top: 50px;
+}
+
+.nav-li {
+    font-family: var(--text-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26.46px;
+}
+
+.nav-item-text {
+    color: var(--second-text-color);
+
+}
+
+.logo-text {
+    font-family: var(--text-family);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.8px;
+    width: 390px;
+    margin-top: 123px;
+    margin-right: 141px;
+}
+
+.logo-name {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+}
+
+.logo_text {
+    font-family: var(--text-family);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.75px;
+    width: 255px;
+    margin-top: 20px;
+}
+
+.talk_btn {
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 100px;
+    font-family: var(--text-family);
+    font-size: 24px;
+    color: white;
+    background: rgba(134, 67, 220, 1);
+    font-weight: 500;
+    line-height: 31.75px;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.services_title {
+    font-family: var(--text-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    color: rgba(134, 67, 220, 1);
+    margin-top: 100px;
+    margin-left: 165px;
+}
+
+.services_list {
+    width: 50px;
+    height: 2px;
+    background: rgba(134, 67, 220, 1);
+    margin-left: 165px;
+    margin-top: 10px;
+}
+
+.services_text {
+    font-family: var(--text-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.63px;
+    text-align: left;
+    margin-left: 165px;
+    width: 240px;
+    margin-top: 15px;
+}
+
+.cards_section {
+    display: flex;
+    margin-left: 165px;
+    margin-top: 50px;
+    gap: 30px;
+    width: 1110px;
+}
+
+.card_image {
+    width: 62px;
+    height: 60.59px;
+}
+
+.first-card {
+    display: flex;
+}
+
+.second-card {
+    display: flex;
+}
+
+.third-card {
+    display: flex;
+}
+
+.development {
+    padding-top: 15px;
+    padding-left: 20px;
+    font-family: var(--text-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.75px;
+}
+
+.new_demos {
+    font-family: var(--text-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgba(71, 68, 78, 1);
+    padding-top: 21.41px;
+}
+
+.portfolio-text {
+    font-family: var(--text-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    color: rgba(134, 67, 220, 1);
+    margin-left: 165px;
+    margin-top: 150px;
+}
+
+.all_creative {
+    font-family: var(--text-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.63px;
+    width: 204px;
+    margin-left: 165px;
+    margin-top: 15px;
+}
+
+.explore_more {
+    font-family: var(--text-family);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.75px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+
+.portfolio-cards {
+    display: flex;
+}
+
+.explore {
+    display: flex;
+}
+
+.clients-title {
+    font-family: var(--text-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    color: rgba(134, 67, 220, 1);
+    margin-top: 100px;
+    margin-left: 165px;
+}
+
+.big_deal-title {
+    font-family: var(--text-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.63px;
+    text-align: left;
+    width: 140px;
+    margin-top: 15px;
+    margin-left: 165px;
+}
+
+.clients-cards {
+    display: flex;
+    gap: 50px;
+    margin-top: 44px;
+}
+
+.slack_cards {
+    width: 170px;
+    height: 170px;
+    border: 1px solid rgba(255, 231, 240, 1);
+    border-radius: 10px;
+    background: rgba(255, 246, 250, 1);
+    margin-left: 195px;
+}
+
+.slack-title {
+    font-family: var(--text-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.medium_cards {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid rgba(202, 255, 225, 1);
+    background: rgba(237, 255, 245, 1);
+}
+
+.medium-title {
+    font-family: var(--text-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.microsoft-cards {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid rgba(221, 245, 255, 1);
+    background: rgba(245, 252, 255, 1);
+}
+
+.microsoft-title {
+    font-family: var(--text-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.zeplin-cards {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 238, 201, 1);
+    background: rgba(255, 251, 242, 1);
+}
+
+.zeplin-title {
+    font-family: var(--text-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    padding-top: 30px;
+}
+
+.shopify-cards {
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border: 1px solid rgba(219, 255, 195, 1);
+    background: rgba(244, 255, 237, 1);
+}
+
+.shopify-title {
+    font-family: var(--text-family);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    padding-top: 30px;
+}
+
+.testimonials-title {
+    font-family: var(--text-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(134, 67, 220, 1);
+    margin-top: 150px;
+    margin-left: 165px;
+}
+
+.what_people_says {
+    font-family: var(--text-family);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.63px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    margin-left: 165px;
+    margin-top: 15px;
+    width: 217px;
+}
+
+.testimonials-card-1 {
+    display: flex;
+}
+
+.testimonials-text {
+    font-family: var(--text-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    width: 569px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.testimonials-image-1 {
+    width: 70px;
+    height: 70px;
+    margin-left: 186px;
+    margin-top: 67px;
+}
+
+.testimonials-image-2 {
+    width: 70px;
+    height: 70px;
+    margin-left: 160.37px;
+    margin-top: 60px;
+}
+
+.testimonials-image-3 {
+    width: 42px;
+    height: 42px;
+    margin-left: 444px;
+    margin-top: 25px;
+}
+
+.testimonials-card-2 {
+    display: flex;
+}
+
+.testimonials-image-4 {
+    width: 70px;
+    height: 70px;
+    border-radius: 15px 0px 0px 0px;
+    margin-left: 322px;
+    margin-top: 165px;
+}
+
+.testimonials-image-5 {
+    width: 98px;
+    height: 98px;
+    border-radius: 15px 0px 0px 0px;
+    margin-left: 280px;
+    margin-top: 50px;
+}
+
+.michail_john {
+    font-family: var(--text-family);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.46px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    margin-left: 273px;
+    margin-top: 19.86px;
+}
+
+.ceo_of_mzp {
+    font-family: var(--text-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.17px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    margin-left: 283px;
+    margin-top: 5px;
+}
+
+.testimonials-image-6 {
+    margin-top: 165px;
+    margin-left: 280px;
+    width: 70px;
+    height: 70px;
+}
+
+.pager {
+    margin-left: 640px;
+    margin-top: 46px;
+}
+
+.blog_section {
+    width: 1110px;
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 165px;
+    margin-right: 165px;
+    display: flex;
+}
+
+.blog_text {
+    font-family: Red Hat Display;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(134, 67, 220, 1);
+}
+
+.get_news_feeds {
+    font-family: var(--text-family);
+    width: 165px;
+    margin-top: 15px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47.63px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+.blog_image_1 {
+    width: 350px;
+    height: 233px;
+    margin-left: 25px;
+}
+
+.date-1 {
+    font-family: var(--text-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(134, 67, 220, 1);
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.evolving {
+    font-family: var(--text-family);
+    width: 350px;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.46px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+}
+
+.blog-card-2 {
+    background-image: url(../images/Rectangle\ 14.png);
+    width: 255px;
+    height: 350px;
+    margin-left: 30px;
+}
+
+.date-2 {
+    font-family: var(--text-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 225px;
+    padding-left: 20px;
+}
+
+.new-devices {
+    font-family: var(--text-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.46px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    padding-left: 20px;
+    padding-top: 2px;
+    padding-right: 38px;
+}
+
+.blog-card-3 {
+    background-image: url(../images/Rectangle\ 15.png);
+    width: 255px;
+    height: 350px;
+    margin-left: 30px;
+}
+
+.date-3 {
+    font-family: var(--text-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.17px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 243px;
+    padding-left: 20px;
+}
+
+.every-day {
+    font-family: var(--text-family);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.46px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.contact_me-section {
+    width: 1349px;
+    height: 902px;
+    margin-top: 100px;
+    background-color: rgba(250, 247, 247, 0.894);
+}
+
+.contact_me {
+    font-family: var(--text-family);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.81px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgba(134, 67, 220, 1);
+    padding-left: 165px;
+    padding-top: 50px;
+}
+
+.contact_me-text {
+    display: flex;
+    margin-top: 20px;
+}
+
+.let_me {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    width: 512px;
+    height: 156px;
+    margin-left: 165px;
+}
+
+.infoname {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    color: rgba(134, 67, 220, 1);
+    margin-left: 375px;
+    margin-top: 5px;
+}
+
+.name_input {
+    font-family: var(--text-family);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.46px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    padding-bottom: 17px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgba(168, 160, 176, 1);
+    margin-top: 50px;
+    margin-left: 165px;
+    width: 1110px;
+    border-color: rgba(168, 160, 176, 1);
+    background-color: rgba(250, 247, 247, 0.894);
+}
+
+.get_quote {
+    border: none;
+    width: 200px;
+    height: 60px;
+    border-radius: 100px;
+    font-family: var(--text-family);
+    color: rgba(255, 255, 255, 1);
+    background: rgba(134, 67, 220, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.81px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    margin-left: 165px;
+    margin-top: 30px;
+}
+
+.get_quote-btn {
+    display: flex;
+}
+
+.get_quote-image {
+    width: 16.55px;
+    height: 17.93px;
+    margin-left: 846px;
+    margin-top: 36px;
+}
+
+.get_quote-arrow {
+    width: 30px;
+    margin-left: 16px;
+    margin-top: 29px;
+    height: 30px;
+}
+
+.lets_be_friends {
+    font-family: var(--text-family);
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 47.63px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    margin-top: 100px;
+}
+
+.social_media {
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    margin-left: 550px;
+}
